@@ -1,0 +1,29 @@
+nav img {
+    position: relative;
+    width: 10rem;
+    left: 17px;
+
+}
+
+.profile {
+    position: relative;
+    right: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile h4{
+    padding: 10px;
+}
+.navbar_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}

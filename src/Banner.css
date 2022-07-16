@@ -1,0 +1,40 @@
+.banner {
+    background-image: url("https://image.tmdb.org/t/p/original/wcKFYIiVDvRURrzglV9kGu7fpfY.jpg");
+    background-size: cover;
+    width: 100%;
+    min-height: 30rem;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+.banner_content {
+    text-align: start;
+    top: 0;
+
+}
+
+.banner_btn {
+    padding: 5px;
+    margin: 0 10px;
+    color: black;
+    border: 1px solid red;
+    border-radius: 6px;
+    box-shadow: inset;
+}
+
+.container {
+    position: relative;
+    top: 250px
+}
+
+
+
+.banner_desc {
+    margin: 10px;
+}
+
+.titenic {
+    margin: 0 0 10px 0;
+}

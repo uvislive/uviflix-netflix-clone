@@ -1,0 +1,79 @@
+/* 
+.row_posters{
+     width: 100%;
+     max-width: 100px;
+    object-fit: contain;
+    margin-right: 10px;
+    transition: transform 750ms;
+    
+}
+
+.row_poster{
+    overflow-x:inherit;
+    display: flex;
+}
+
+
+
+
+ h2 {
+    text-align:start;
+    margin:10px 10px;
+    padding: 10px;
+}
+
+.row_posters:hover {
+transform: scale(1.08);
+} */
+
+
+
+
+/* lets createsomething by myself  */
+
+
+.row_posters {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 10px;
+}
+
+.row_poster {
+    width: 100%;
+    max-height: 100px;
+    object-fit: contain;
+    transition: transform 450ms;
+    margin-right: 10px;
+    /* overflow-y: hidden; */
+    /* overflow-x: scroll; */
+}
+
+
+
+
+h2 {
+    text-align: start;
+    /* margin: 10px 10px; */
+    padding: 7px;
+}
+
+.row_poster:hover {
+    transform: scale(1.08);
+}
+
+/* lets remove scrollbar option  */
+
+.row_posters::-webkit-scrollbar {
+    display: none;
+}
+
+
+.posterLarge {
+    max-height: 200px;
+
+}
+
+.posterLarge:hover {
+    transform: scale(1.09);
+}
